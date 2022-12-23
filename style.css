@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color: blue;
+    height: 308px;
+    width: 1920px;
+    left: 0px;
+    top: 3902px;
+}
+.body h3{
+    padding: 70px 0;
+    border: 20px;
+    text-align: left;
+    font-size: 30px;
+    color: white;
+}
+div.left-side{
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    right: 20px;
+}
+div.right-side{
+    width: 30%;
+    display: inline-block;
+    height: 100%;
+    margin: 30px;
+}
+div.medium{
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+}
+div.inscription{
+        padding: 50px;
+        border: 30px;
+        width: 40%;
+        height: 100%;
+        display: inline-block;
+}
+div.pirveli{
+        padding: 60px;
+        right:20px;
+        border: 60px;
+        width: 15%;
+        height: 100%;
+        display: inline-block;
+}
+div.meore{
+        padding: 60px;
+        right:20px;
+        border: 60px;
+        width: 15%;
+        height: 100%;
+        display: inline-block;
+}
+div.mesame{
+        padding: 60px;
+        right:20px;
+        border: 60px;
+        width: 15%;
+        height: 100%;
+        display: inline-block;
+}
+h2:before{
+    content:"";
+    display: inline-block;
+    vertical-align: middle;
+    width: 3px;
+    height: 30px;
+    background-color: black;
+    margin-left: 30px;
+    text-align: left;
+    left: 1519px;
+    top: 4580px;}
